@@ -25,7 +25,7 @@ export default {
       this.onlogin()
     } else {
       if (typeof this.error !== 'function') {
-        console.log('Error callback is needed!')
+        console.log('Error callback is not defined!', response)
       } else {
         this.error(response)
       }
