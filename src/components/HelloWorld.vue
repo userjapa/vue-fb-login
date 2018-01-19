@@ -99,7 +99,7 @@ export default {
   methods: {
     login (response) {
       this.msg = `Welcome, ${response.name}, to Our Vue.js App`
-      console.log('Successful login for: ' + response.name)
+      console.log(`Successful login for: ${response.name}`)
       console.log(response)
     },
     error (response) {
