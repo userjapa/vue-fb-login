@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style>
+button::-moz-focus-inner {
+  border: 0;
+}
+
 .fb-logout-btn {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 700;
