@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style>
+button::-moz-focus-inner {
+  border: 0;
+}
+
 .fb-login-btn {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 700;
@@ -28,6 +32,11 @@ export default {
   padding: 10px;
   min-width: 75px;
   outline: none;
+}
+
+.fb-login-btn:hover {
+  background: #8b9dc3;
+  color: #ffffff;
 }
 
 .fb-login-btn:active {
